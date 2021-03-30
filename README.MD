@@ -18,6 +18,30 @@ Explore the Projects using the Website Portal below and use back to return to th
 5. Object: Unordered collection of key/value pairs
 6. Null: Empty value.
 
+### JSON Syntax Rules
+
+1. Uses key/value pairs - {"name:":"Michael"}
+2. uses double quotes around KEY and VALUE
+3. Must use the specified data types
+4. File type is ".json"
+5. MIME type is "Application/json"
+
+### JSON Example
+
+> Source
+> // 20210329201613
+> // https://jsonplaceholder.typicode.com/photos
+
+[
+{
+"albumId": 1,
+"id": 1,
+"title": "accusamus beatae ad facilis cum similique qui sunt",
+"url": "https://via.placeholder.com/600/92c952",
+"thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+]
+
 > HTML, CSS, JavaScript, jQuery.
 
 <p align="center">

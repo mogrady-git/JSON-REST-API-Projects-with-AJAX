@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Fetch API Sandbox</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-4 mb-4 pt-5" style="text-align: center;">Fetch API Sandbox</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Fetch data from a local text file Asynchronously
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div id="getTextOutput" class="d-flex py-2 px-2"></div>
+                    </div>
+                    <div class="d-flex py-2 px-2">
+                        <button class="btn btn-primary mr-4 mx-2" id="getText">Get Text</button>
+                        <a class="btn btn-secondary mr-4" href="index.html">Reset Page</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Fetch data from a local JSON file Asynchronously
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong></strong>
+                    </div>
+                    <div class="d-flex py-2 px-2">
+                        <button class="btn btn-success mr-4 mx-2" id="getUsers">Get JSON</button>
+                        <a class="btn btn-secondary mr-4" href="index.html">Reset Page</a>
+                    </div>
+                    <div id="getJSONoutput"></div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Fetch JSON data from an external API Asynchronously
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong></strong>
+                    </div>
+                    <div class="d-flex py-2 px-2">
+                        <button class="btn btn-warning mr-4 mx-2" id="getPosts">Get API Data</button>
+                        <a class="btn btn-secondary mr-4" href="index.html">Reset Page</a>
+                    </div>
+                    <div id="getJSONaPIoutput"></div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  POST Request to API using FETCH
+                </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong></strong>
+                    </div>
+                    <form action="" id="addPost">
+                        <div class="form-group mr-4 mx-2 mb-2">
+                            <input type="text" id="title" placeholder="Title" class="form-control">
+                        </div>
+                        <div class="form-group mr-4 mx-2">
+                            <textarea name="" id="body" cols="30" rows="10" placeholder="Body" class="form-control"></textarea>
+                            <input type="submit" class="btn btn-warning mr-4 form-control mb-2" style="margin-top: 5px;" value="Submit" id="message">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
