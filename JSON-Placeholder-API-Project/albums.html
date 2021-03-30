@@ -43,12 +43,18 @@
                             <h4 class="my-0 fw-normal">Albums</h4>
                         </div>
                         <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Preview <small class="text-muted fw-light"> of Source Structure:</small></h1>
+                            <iframe src="https://jsonplaceholder.typicode.com/albums" width="100%" frameborder="0"></iframe>
+                            <hr>
                             <h1 class="card-title pricing-card-title">Fetch <small class="text-muted fw-light">100 Albums from:</small></h1>
                             <p>https://jsonplaceholder.typicode.com/albums</p>
                             <ul class="list-unstyled mt-3 mb-4">
+                                <li><button id="getPhotos" type="button" hidden class="w-100 btn btn-lg btn-outline-primary">Fetch</button></li>
                                 <li><button id="getAlbums" type="button" class="w-100 btn btn-lg btn-outline-primary">Fetch</button></li>
                                 <li><button id="getComments" type="button" hidden class="w-100 btn btn-lg btn-outline-primary">Fetch</button></li>
                                 <li><button id="getPosts" type="button" hidden class="w-100 btn btn-lg btn-outline-primary">Fetch</button></li>
+                                <li><button id="getUsers" type="button" hidden class="w-100 btn btn-lg btn-outline-primary">Fetch</button></li>
+                                <li><button id="getTodos" type="button" hidden class="w-100 btn btn-lg btn-outline-primary">Fetch</button></li>
                             </ul>
                         </div>
                     </div>

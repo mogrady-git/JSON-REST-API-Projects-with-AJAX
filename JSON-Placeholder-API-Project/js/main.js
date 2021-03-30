@@ -57,10 +57,11 @@ function getComments(e) {
                         <h4 class="my-0 fw-normal">Comment ${post.id}</h4>
                     </div>
                     <div class="card-body text-start">
-                        <h1 class="card-title pricing-card-title fs-3">userId:<small class="text-muted fw-light">${post.postId}</small></h1>
-                        <h1 class="card-title pricing-card-title fs-3">id:<small class="text-muted fw-light">${post.id}</small></h1>
-                        <h1 class="card-title pricing-card-title fs-3">email:<small class="text-muted fw-light">${post.email}</small></h1>
-                        <h1 class="card-title pricing-card-title fs-3">body:</small></h1>
+                        <h1 class="card-title pricing-card-title fs-3">postId: <small class="text-muted fw-light">${post.postId}</small></h1>
+                        <h1 class="card-title pricing-card-title fs-3">id: <small class="text-muted fw-light">${post.id}</small></h1>
+                        <h1 class="card-title pricing-card-title fs-3">name: <small class="text-muted fw-light">${post.name}</small></h1>
+                        <h1 class="card-title pricing-card-title fs-3">email: <small class="text-muted fw-light">${post.email}</small></h1>
+                        <h1 class="card-title pricing-card-title fs-3">body: </small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>${post.body}</li>
                         </ul>
@@ -91,8 +92,8 @@ function getAlbums(e) {
                                 <h4 class="my-0 fw-normal">Album ${post.id}</h4>
                             </div>
                             <div class="card-body text-start">
-                                <h1 class="card-title pricing-card-title fs-3">userId:<small class="text-muted fw-light">${post.userId}</small></h1>
-                                <h1 class="card-title pricing-card-title fs-3">title:<small class="text-muted fw-light">${post.title}</small></h1>
+                                <h1 class="card-title pricing-card-title fs-3">userId: <small class="text-muted fw-light">${post.userId}</small></h1>
+                                <h1 class="card-title pricing-card-title fs-3">title: <small class="text-muted fw-light">${post.title}</small></h1>
                             </div>
                         </div>
                     </div>
@@ -115,8 +116,9 @@ function getPhotos(e) {
                     <div class="card h-100">
                         <img src="${post.url}" class="card-img-top" alt="...">
                         <div class="card-body text-start">
-                        <h1 class="card-title pricing-card-title fs-3">userId: <small class="text-muted fw-light">${post.id}</small></h1>
+                        <h1 class="card-title pricing-card-title fs-3">id: <small class="text-muted fw-light">${post.id}</small></h1>
                         <h1 class="card-title pricing-card-title fs-3">title: <small class="text-muted fw-light">${post.title}</small></h1>
+                        <h1 class="card-title pricing-card-title fs-3">url: <small class="text-muted fw-light">${post.url}</small></h1>
                         <h1 class="card-title pricing-card-title fs-3">thumbnailUrl: <small class="text-muted fw-light">${post.thumbnailUrl}</small></h1>
                         <h1 class="card-title pricing-card-title fs-3">albumId: <small class="text-muted fw-light">${post.albumId}</small></h1>
                     </div>
@@ -145,6 +147,7 @@ function getTodos(e) {
                     <div class="card-body text-start">
                         <h1 class="card-title pricing-card-title fs-3">userId: <small class="text-muted fw-light">${post.userId}</small></h1>
                         <h1 class="card-title pricing-card-title fs-3">id: <small class="text-muted fw-light">${post.id}</small></h1>
+                        <h1 class="card-title pricing-card-title fs-3">title: <small class="text-muted fw-light">${post.title}</small></h1>
                         <h1 class="card-title pricing-card-title fs-3">completed: <small class="text-muted fw-light">${post.completed}</small></h1>
                     </div>
                 </div>
