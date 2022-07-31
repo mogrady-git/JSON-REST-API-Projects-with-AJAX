@@ -28,19 +28,24 @@ Explore the Projects using the Website Portal below and use back to return to th
 
 ### JSON Example
 
-> Source
-> // 20210329201613
-> // https://jsonplaceholder.typicode.com/photos
+- https://jsonplaceholder.typicode.com/photos
 
+```json
 [
-{
-"albumId": 1,
-"id": 1,
-"title": "accusamus beatae ad facilis cum similique qui sunt",
-"url": "https://via.placeholder.com/600/92c952",
-"thumbnailUrl": "https://via.placeholder.com/150/92c952"
-}
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+  }
 ]
+```
+
+<h1 align="center">
+<img src="images/fetch-api-sandbox.png"  height="auto" width="100%">
+<img src="images/json-placeholder.png"  height="auto" width="100%">
+</h1>
 
 > HTML, CSS, JavaScript, jQuery.
 
